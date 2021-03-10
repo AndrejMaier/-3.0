@@ -1,10 +1,9 @@
 {
   "name": "package.json",
   "version": "1.0.0",
-  "description": "Марафон HTMLacademy",
-  "main": "index.js",
+  "description": "Марафон HTMLACADEMY",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run editorconfig && npm run stylelint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/AndrejMaier/-3.0/issues"
   },
-  "homepage": "https://github.com/AndrejMaier/-3.0#readme"
+  "homepage": "https://github.com/AndrejMaier/-3.0#readme",
+  "devDependencies": {
+    "stylelint-order-htmlacademy": "2.0.3"
+  }
 }
