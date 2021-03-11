@@ -1,0 +1,37 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Marathon",
+  "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"less/**/*.less\" --syntax less",
+    "test": "npm run editorconfig && npm run stylelint"
+  },
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "*.html",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "less/**/*.less"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrejMaier/-3.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrejMaier/-3.0/issues"
+  },
+  "homepage": "https://github.com/AndrejMaier/-3.0#readme",
+  "dependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  },
+  "devDependencies": {
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0"
+  }
+}
